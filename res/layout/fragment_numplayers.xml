@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/NumPlayersText"
+        android:layout_marginLeft="70dp"
+        android:textSize="50dp"
+        android:text="Pick Number of Players">
+    </TextView>
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OnePlayerButton"
+        android:textSize="30dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="30dp"
+        android:text="1 Player">
+    </Button>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TwoPlayersButton"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="30dp"
+        android:text="2 Players">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ThreePlayersButton"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="30dp"
+        android:text="3 Players">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FourPlayersButton"
+        android:textSize="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="30dp"
+        android:text="4 Players">
+
+    </Button>
+</LinearLayout>

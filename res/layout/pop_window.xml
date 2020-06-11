@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <EditText
+        android:hint="Enter Custom Game Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newGameName"
+        android:textAlignment="center">
+    </EditText>
+    <RadioGroup
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Players"
+            android:id="@+id/twoPlayerRadio">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Players"
+            android:id="@+id/threePlayerRadio">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Players"
+            android:id="@+id/fourPlayerRadio">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:enabled="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/submitNewGame"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Start">
+    </Button>
+</LinearLayout>

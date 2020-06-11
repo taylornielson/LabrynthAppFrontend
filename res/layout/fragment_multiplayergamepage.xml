@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/newMultiButton"
+            android:text="New Game"
+            android:layout_marginLeft="30dp">
+        </Button>
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/joinMultiButton"
+            android:text="Join Game">
+        </Button>
+        <EditText
+            android:hint="ID of Game to Join"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gameToJoinText">
+        </EditText>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/YourTurnText"
+        android:text="Your Turn"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </TextView>
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/Explanation"
+        android:text="GameID     Game Name     Turn"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/currentTurnRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/PendingText"
+        android:text="Pending Games"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notCurrentTurnRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>

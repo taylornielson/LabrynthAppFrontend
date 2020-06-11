@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/parentLayout">
+    <TextView
+        android:textSize="30dp"
+        android:hint="1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/gameID"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </TextView>
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Taylors game"
+        android:id="@+id/gameName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </TextView>
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Taylor (1)"
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </TextView>
+</LinearLayout>
